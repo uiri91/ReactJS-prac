@@ -74,7 +74,7 @@
         <div>
           <label htmlFor="miles">Miles</label>
           <input
-            value={inverted ? amount : Math.round(amount / 1.609)}
+            value={inverted ? amount : amount / 1.609}
             id="miles"
             placeholder="Miles"
             type="number"
